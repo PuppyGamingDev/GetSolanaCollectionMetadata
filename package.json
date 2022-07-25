@@ -1,0 +1,16 @@
+{
+  "name": "Puppy Tools Solana Metadata Fetch",
+  "version": "1.0.0",
+  "description": "Fedtches and exports the metadata for a Solana NFT collection or any hashlist used",
+  "main": "grabdata.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "node-fetch": "^3.2.6"
+  }
+}
