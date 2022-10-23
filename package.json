@@ -1,15 +1,17 @@
 {
-  "name": "Puppy Tools Solana Metadata Fetch",
+  "name": "puppymetadatafetch",
   "version": "1.0.0",
-  "description": "Fedtches and exports the metadata for a Solana NFT collection or any hashlist used",
-  "main": "grabdata.js",
+  "description": "Fetches and exports the metadata for a Solana NFT collection or any hashlist used",
+  "main": "getmetadata.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Puppy Tools",
   "license": "ISC",
   "dependencies": {
+    "@metaplex-foundation/js": "^0.17.2",
+    "@solana/web3.js": "^1.66.2",
     "@types/node": "^18.0.6",
     "node-fetch": "^3.2.6"
   }
